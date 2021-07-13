@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="icon"  href="imgs/letter-b.svg">
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/codigo.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    </head>
+    <body onload="calculadora();">
+        <section class="sesion1">
+            
+            <div class="calculadora">
+                <div class="pantalla">
+                    <span id="resultado"></span>
+                </div>
+           
+            <div class="botones">
+                <table class="table table-borderless table-hover">
+                    <tr>
+                        <td>
+                            <input type="button" class="btn btn-danger" id="delete" value="C">
+                        </td>
+                        <td>
+                            <input type="button" class="btn bg-secondary" id="porciento" value="%">
+                        </td>
+                        <td>
+                            <input type="button" class="btn bg-secondary" id="mas" value="+">
+                        </td>
+                        <td>
+                            <input type="button" class="btn bg-secondary" id="menos" value="-">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="button" class="btn btn-dark" id="seven" value="7">
+                        </td>
+                        <td>
+                            <input type="button" class="btn btn-dark" id="eight" value="8">
+                        </td>
+                        <td>
+                            <input type="button" class="btn btn-dark" id="nine" value="9">
+                        </td>
+                        <td>
+                            <input type="button" class="btn bg-secondary" id="dividir" value="÷">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <input type="button" class="btn btn-dark" id="four" value="4">
+                        </td>
+                        <td>
+                            <input type="button" class="btn btn-dark" id="five" value="5">
+                        </td>
+                        <td>
+                            <input type="button" class="btn btn-dark" id="six" value="6">
+                        </td>
+                        <td>
+                            <input type="button" class="btn bg-secondary" id="multiplicar" value="X">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <input type="button" class="btn btn-dark" id="one" value="1">
+                        </td>
+                        <td>
+                            <input type="button" class="btn btn-dark" id="two" value="2">
+                        </td>
+                        <td>
+                            <input type="button" class="btn btn-dark" id="three" value="3">
+                        </td>
+                        <td rowspan="2">
+                            <input type="button" class="btn btn-warning" id="igual" value="=" id="igual">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="button" class="btn btn-dark" id="cero" value="0" id="cero">
+                        </td>
+                        <td>
+                            <input type="button" class="btn btn-dark" id="point" value=".">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            </div>
+        </section>
+        
+    </body>
+</html>
